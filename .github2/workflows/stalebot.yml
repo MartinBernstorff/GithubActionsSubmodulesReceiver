@@ -1,0 +1,8 @@
+name: stalebot
+
+on:
+    workflow_dispatch:
+
+jobs:
+    stale:
+        uses: MartinBernstorff/GithubActionsSubmodules/.github/workflows/stalebot.yml@main
